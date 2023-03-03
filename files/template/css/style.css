@@ -31,12 +31,19 @@ body {
 /*******************************************/
 header{
     height: 70px;
-    border-bottom: 1px solid black
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 footer{
     height: 70px;
-    border-top: 1px solid black
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 /******************************************
@@ -52,8 +59,13 @@ img{
 }
 
 .container{
-    width: 60%;
+    width: 90%;
     margin: auto;
     text-align: center;
     height: 700px;
+}
+
+.bbImages{
+    display: flex;
+    justify-content: space-around;
 }
