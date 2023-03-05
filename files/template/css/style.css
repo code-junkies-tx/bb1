@@ -20,9 +20,18 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
+@font-face {
+    font-family: Arnold;
+    src: url(/downloads/.Arnold.esa);
+}
+
 
 body {
+    font-family: Arnold;
+}
 
+h1 {
+    font-family: Arnold;
 }
 
 
@@ -51,6 +60,10 @@ footer{
 /*******************************************/
 h1{
     color: red;
+}
+
+h2{
+    color: purple;
 }
 
 img{
