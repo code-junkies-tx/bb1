@@ -20,10 +20,10 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-@font-face {
+/* @font-face {
     font-family: Arnold;
     src: url(/downloads/.Arnold.esa);
-}
+} */
 
 
 body {
@@ -79,6 +79,6 @@ img{
 }
 
 .bbImages{
-    display: flex;
+    /* display: flex; */
     justify-content: space-around;
 }
