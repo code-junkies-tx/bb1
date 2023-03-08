@@ -79,8 +79,12 @@ img{
 }
 
 .bbImages{
-    /* display: flex; */
+    display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+
+#bbImages img {
     height: 200px;
     width: 200px;
 }
