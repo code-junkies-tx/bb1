@@ -58,6 +58,10 @@ footer{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+body{
+    background: lightpink;
+}
+
 h1{
     color: brown;
 }
