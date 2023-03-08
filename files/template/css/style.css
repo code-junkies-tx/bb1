@@ -40,10 +40,15 @@ h1 {
 /*******************************************/
 header{
     height: 70px;
-    border-bottom: 1px solid black;
+    background: white;
+    margin: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    /* border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; */
 }
 
 footer{
@@ -53,26 +58,27 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background: white;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 body{
-    background: lightpink;
+    background-image: url("../images/us-flag-1.jpg");
 }
 
 h1{
-    color: brown;
+    color: white;
 }
 
 h2{
     color: purple;
 }
 
-img{
-    width: 300px;
-    height: 300px;
+.logo{
+    color: rgba(59,59,108);
+    margin: 0;
 }
 
 .container{
@@ -82,13 +88,17 @@ img{
     height: 700px;
 }
 
-.bbImages{
+#bbImages{
+    height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 #bbImages img {
-    height: 200px;
-    width: 200px;
+    height: 275px;
+    width: 275px;
+    box-shadow: 0px 15px 20px 5px rgb(44, 42, 77), 0px 12px 40px 12px white;
+    border: 10px solid rgb(232, 229, 229);
+    border-radius: 10px;
 }
