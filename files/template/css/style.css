@@ -64,10 +64,6 @@ footer{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-body{
-    background-image: url("../images/us-flag-1.jpg");
-}
-
 h1{
     color: white;
 }
@@ -82,10 +78,10 @@ h2{
 }
 
 .container{
-    width: 90%;
     margin: auto;
     text-align: center;
     height: 700px;
+    background-image: url("../images/us-flag-1.jpg");
 }
 
 #bbImages{
@@ -102,3 +98,15 @@ h2{
     border: 10px solid rgb(232, 229, 229);
     border-radius: 10px;
 }
+
+@media (max-width: 665px){
+    #bbImages{
+        flex-direction: column;
+    }
+
+    #bbImages img {
+        height: 150px;
+        width: 150px;
+    }
+}
+
